@@ -4,8 +4,8 @@ package ex04;
 public class Gasoline {
 
     public static double calcEffiency(double fuel, double distance) {
-        double efficieny = distance / fuel;
-        return efficieny;
+        double result = distance / fuel;
+        return result;
     }
 
     public static void main(String[] args) {

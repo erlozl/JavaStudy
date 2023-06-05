@@ -10,8 +10,8 @@ public class Gamble {
 
     public static int dice() {
         // Math.random() 메소드를 활용하여 1~6 사이의 정수를 반환하도록 하시오
-        int dollar = (int) (Math.random() * 6) + 1;
-        return dollar;
+        int result = (int) (Math.random() * 6) + 1;
+        return result;
     }
 
     public static double exchange(double dollar) {
