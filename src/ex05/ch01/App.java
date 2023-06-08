@@ -120,12 +120,12 @@ public class App {
         // 오버로딩=> 하나의 메서드의 여러가지의 기능을 부여하는 것
 
         // 오버로딩 체험하기
-        System.out.println();
-        System.out.println(1);
-        System.out.println(1.1);
-        System.out.println('가');
-        System.out.println(true);
-        System.out.println("문자열");
+        // System.out.println();
+        // System.out.println(1);
+        // System.out.println(1.1);
+        // System.out.println('가');
+        // System.out.println(true);
+        // System.out.println("문자열");
 
     }
 }

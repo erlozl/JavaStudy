@@ -1,5 +1,11 @@
 package ex05.ch02;
 
-public class ProtossUnit {
+abstract class ProtossUnit {
+    abstract int getAttack();
 
+    abstract int getHp();
+
+    abstract int setHp(int hp);
+
+    abstract String getName();
 }

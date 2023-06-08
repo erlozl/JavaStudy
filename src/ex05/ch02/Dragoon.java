@@ -11,4 +11,24 @@ public class Dragoon extends ProtossUnit {
         this.attack = attack;
     }
 
+    @Override
+    int getAttack() {
+        return attack;
+    }
+
+    @Override
+    int getHp() {
+        return hp;
+    }
+
+    @Override
+    int setHp(int hp) {
+        return this.hp = hp;
+    }
+
+    @Override
+    String getName() {
+        return name;
+    }
+
 }
