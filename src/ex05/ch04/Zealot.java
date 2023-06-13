@@ -11,5 +11,7 @@ public class Zealot extends ProtossUnit {
         // super.name
         // 접근이 가능
 
+        // 자식 클래스의 생성자에서 명시적으로 부모 클래스의 생성자 호출할수 있음
+
     }
 }

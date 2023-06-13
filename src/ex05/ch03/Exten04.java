@@ -10,7 +10,6 @@ abstract class Animal {
     abstract void speak(); // 오버라이드
     // <ㅡ 추상메서드로 만들기 (구체적 행위가 없기 때문에 )
     // 통로 역할
-
 }
 
 // 추상메서드를 만들면 오류가 난다
