@@ -44,6 +44,7 @@ class Car implements CarAble {
 
     // 이게 없으면 오류 (구현을 안했기 때문에)
     @Override
+    // CarAble의 정의된 메소드 오버라이드시켜서 공통적으로 사용할 수 있는 메서드 오버라이딩
     public void 엑셀() {
         엔진가열();
         모터작동();
@@ -53,10 +54,14 @@ class Car implements CarAble {
 
 public class InterEx01 {
     public static void main(String[] args) {
+        // 구현체를 통해 사용하는 것이 일반적
+        // 상속을 따지면 자식클래스를 사용하는 게 낫다
+
         // 다형성이랑 상관없는데 되는 이유 (인터페이스에서 예외)
         // 행위를 제한시키려고 인터페이스에서 사용하는 문법
         CarAble carAble = new Car();
         Car car = new Car();
+        // Car car2 = new CarAble();
         // CarAble car = new CarAble();
         car.엑셀();
         System.out.println();

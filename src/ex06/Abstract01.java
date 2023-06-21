@@ -61,5 +61,6 @@ public class Abstract01 {
         d1.name = "사자";
         d3.color = "블랙";
         // d1.color = "블랙";
+        // 자식메소드가 가지고 있는 color이기 때문에 부모가 자식 필드를 참조할 수 없음
     }
 }

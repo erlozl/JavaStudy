@@ -20,6 +20,7 @@ public class Burger {
         this(price, "버거");
         // 버거 자체를 다시 적을 필요가 없음
         // 가격만 바꾸면 됨
+        System.out.println("버거가 할인되었습니다");
     }
 
     public Burger(int price, String desc) {

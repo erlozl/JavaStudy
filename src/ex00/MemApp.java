@@ -1,5 +1,6 @@
 package ex00;
 
+// OC.JP 
 class 엘리스 {
     static String name = "엘리스";
     int height = 160;

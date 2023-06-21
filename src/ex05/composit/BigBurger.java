@@ -18,4 +18,15 @@ public class BigBurger extends Burger {
         super(price, desc);
         System.out.println("빅버거가 만들어졌습니다");
     }
+
+    @Override
+    public String getDesc() {
+        return super.getDesc();
+    }
+
+    @Override
+    public int getPrice() {
+        return super.getPrice();
+    }
+
 }
